@@ -91,7 +91,7 @@
   opacity: var(--opacity-disabled);
 }
 
-.itemIndicator {
+.itemIndicator{
   width: 16px;
   height: 16px;
   flex: none;

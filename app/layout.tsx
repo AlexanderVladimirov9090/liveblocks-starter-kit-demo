@@ -1,18 +1,18 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Providers } from "@/app/Providers";
 import { auth } from "@/auth";
-import "../styles/normalize.css";
+import "@liveblocks/react-tiptap/styles.css";
 import "@liveblocks/react-ui/styles.css";
 import "@liveblocks/react-ui/styles/dark/media-query.css";
-import "@liveblocks/react-tiptap/styles.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "../styles/globals.css";
+import "../styles/normalize.css";
 import "../styles/text-editor.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Liveblocks Starter Kit",
+  title: "Simple live blog demo",
 };
 
 export default async function RootLayout({

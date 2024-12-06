@@ -32,7 +32,7 @@ module.exports = {
     "react/display-name": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
-
+    'prettier/prettier':'off',
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
     "import/default": "off",
     "import/export": "warn",
